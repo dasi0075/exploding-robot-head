@@ -41,7 +41,10 @@ body {
 .robot-brain {
   width: 46px;
   position: relative;
-  bottom: 30px;
+  bottom: 60px;
+  left: 145px;
+
+  z-index: 1000;
 }
 
 .robot-head-right,
@@ -49,4 +52,13 @@ body {
   width: 125px;
   position: absolute;
   bottom: 60px;
+  right: 480px;
+}
+
+.robot-head-left {
+  right: 520px;
+}
+
+.robot-head-right {
+  right: 340px;
 }
