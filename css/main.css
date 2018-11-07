@@ -21,7 +21,7 @@ body {
 .robot {
   display: flex;
   bottom: 0;
-  padding-top: 3em;
+  padding-top: 4em;
   padding-bottom: 0;
   width: 100%;
   align-items: center;
@@ -33,7 +33,6 @@ body {
   width: 320px;
   position: relative;
   left: 50%;
-  top: 50%;
   transform: translate(-50%, -50%);
   top: 90px;
 }
@@ -43,8 +42,6 @@ body {
   position: relative;
   bottom: 60px;
   left: 145px;
-
-  z-index: 1000;
 }
 
 .robot-head-right,
@@ -52,13 +49,15 @@ body {
   width: 125px;
   position: absolute;
   bottom: 60px;
-  right: 480px;
+  right: 470px;
+
+  z-index: 6;
 }
 
 .robot-head-left {
-  right: 520px;
+  right: 490px;
 }
 
 .robot-head-right {
-  right: 340px;
+  right: 370px;
 }
