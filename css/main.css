@@ -19,24 +19,29 @@ body {
 }
 
 .robot {
-  display: flex;
+  display: absolute;
   bottom: 0;
   padding-top: 3em;
   padding-bottom: 0;
   width: 100%;
   align-items: center;
+  left: 50%;
+  top: 50%;
 }
 
 .robot-body {
   width: 320px;
   position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  top: 100px;
 }
 
 .robot-brain {
   width: 46px;
-  position: absolute;
-  bottom: 80px;
-  top: 30px;
+  position: relative;
+  bottom: 70px;
 }
 
 .robot-head-right,
