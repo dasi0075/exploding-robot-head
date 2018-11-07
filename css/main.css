@@ -69,3 +69,7 @@ body {
 .robot:hover .robot-head-left {
   right: 520px;
 }
+
+.robot:hover .robot-brain {
+  bottom: 80px;
+}
