@@ -20,6 +20,10 @@ body {
 
 .robot {
   width: 320px;
+  display: block;
+  position: relative;
+  align-items: center;
+
 }
 
 .robot-body {
@@ -30,6 +34,7 @@ body {
   width: 46px;
   position: absolute;
   bottom: 80px;
+  top: 20px;
 }
 
 .robot-head-right,
