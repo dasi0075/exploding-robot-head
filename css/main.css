@@ -39,32 +39,34 @@ body {
 .robot-brain {
   width: 46px;
   position: absolute;
+  display: block;
   bottom: 90px;
-  left: 465px;
+  left: 445px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  display: block;
   position: absolute;
   bottom: 60px;
   transition: all 200ms linear;
 }
 
 .robot-head-left {
-  transform: translateX(24%);
+  transform: translateX(30%);
 }
 
 .robot-head-right {
-  right: 370px;
+  transform: translateX(130%);
 }
 
 .robot:hover .robot-head-right {
-  transform: translateX(28%);
+  transform: translateX(160%);
 }
 
 .robot:hover .robot-head-left {
-  transform: translateX(2%);
+  transform: translateX(-2%);
 }
 
 .robot:hover .robot-brain {
