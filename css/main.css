@@ -49,8 +49,6 @@ body {
   position: absolute;
   bottom: 50px;
   transition: all 200ms linear;
-
-  z-index: 6;
 }
 
 .robot-head-left {
