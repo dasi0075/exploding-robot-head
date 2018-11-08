@@ -47,7 +47,7 @@ body {
 .robot-head-left {
   width: 125px;
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
   transition: all 200ms linear;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .robot:hover .robot-head-left {
-  transform: translateX(-28%);
+  transform: translateX(2%);
 }
 
 .robot:hover .robot-brain {
