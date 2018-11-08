@@ -54,7 +54,7 @@ body {
 }
 
 .robot-head-left {
-  right: 490px;
+  transform: translateX(-13%);
 }
 
 .robot-head-right {
